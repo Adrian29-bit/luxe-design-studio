@@ -1,0 +1,58 @@
+.contato {
+    grid-area: contato;
+    background-color: var(--cor-branca);
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.contato h2 {
+    margin-bottom: 50px;
+}
+
+.contato .btn {
+    margin: auto 40px;
+    padding: 15px 20px;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-branca);
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.contato-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.contato-form {
+    text-align: left;
+}
+
+.form-grupo {
+    margin-bottom: 20px;
+}
+
+input,
+textarea {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--acentuacao);
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: var(--cor-secundaria);
+}
+
+@media (max-width: 425px) {
+    .contato-container {
+        grid-template-columns: 1fr;
+        width: 50%;
+    }
+}

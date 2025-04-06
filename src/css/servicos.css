@@ -1,0 +1,67 @@
+.servicos {
+    grid-area: servicos;
+    padding: 80px 40px;
+}
+
+.servicos h2 {
+    font-weight: 600;
+    color: var(--cor-primaria);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: var(--cor-branca);
+    border: 1px solid rgba(91, 125, 177, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    ;
+}
+
+.card i {
+    font-size: 50px;
+    color: var(--cor-secundaria);
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.card h3 {
+    font-family: "Poppins", sans-serif;
+    color: var(--cor-primaria);
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: var(--cor-texto);
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.card a {
+    color: var(--acentuacao);
+    font-weight: 600;
+}
+
+.card a:hover {
+    color: var(--cor-secundaria);
+}
+
+@media (max-width: 425px) {
+    .card-container {
+        grid-template-columns: 1fr;
+    }
+}

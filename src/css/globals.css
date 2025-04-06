@@ -1,0 +1,19 @@
+body {
+    display: grid;
+    grid-template-areas:
+        "header header header header"
+        "hero hero hero hero"
+        "servicos servicos servicos servicos"
+        "projetos projetos projetos projetos"
+        "contato contato contato contato"
+        "footer footer footer footer";
+    grid-template-columns: repeat(4, 1fr);
+    font-family: "Open Sans", sans-serif;
+    background-color: var(--background);
+}
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 56px;
+    color: var(--cor-primaria);
+}
