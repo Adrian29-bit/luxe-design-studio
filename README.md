@@ -1,6 +1,6 @@
 # LuxeDesign Studio Website
 
-Um site moderno e responsivo para uma empresa de design de interiores, desenvolvido com HTML e CSS puros.  
+Um site moderno e responsivo para uma empresa de design de interiores (Fictícia, esse projeto foi feito apenas para prática, não para um cliente real), desenvolvido com HTML e CSS puros.  
 
 ![Preview do Site](./src/design/LuxeDesign.gif)
 
